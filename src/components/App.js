@@ -14,7 +14,9 @@ function App() {
         <Recipe
           key={recipeDetails.key}
           title={recipeDetails.title}
-          content={recipeDetails.content}
+          image={recipeDetails.image}
+          ingredients={recipeDetails.ingredients}
+          description={recipeDetails.description}
         />
       ))}
       <Footer />

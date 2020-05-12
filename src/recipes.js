@@ -1,27 +1,29 @@
 const notes = [
   {
     key: 1,
-    title: "Delegation",
-    content:
-      "Q. How many programmers does it take to change a light bulb? A. None – It’s a hardware problem"
+    title: "5 Spice Duck",
+    image:
+      "https://cdn-image.myrecipes.com/sites/default/files/image/recipes/ck/11/03/roast-chicken-ck-x.jpg",
+    description: "Made with chicken, this Chinese classic is sure to please.",
+    ingredients: "Ancient 5 spice powder, blah blah"
   },
   {
     key: 2,
-    title: "Loops",
-    content:
-      "How to keep a programmer in the shower forever. Show him the shampoo bottle instructions: Lather. Rinse. Repeat."
+    title: "Duck Congee",
+    image:
+      "https://static01.nyt.com/images/2016/09/28/dining/28CHINESE-WEB1/28CHINESE-WEB1-articleLarge.jpg",
+    description:
+      "Made with chicken, this glutinous Asian classic is best to warm up on a cold day.",
+    ingredients: "blah blah blah blah"
   },
   {
     key: 3,
-    title: "Arrays",
-    content:
-      "Q. Why did the programmer quit his job? A. Because he didn't get arrays."
-  },
-  {
-    key: 4,
-    title: "Hardware vs. Software",
-    content:
-      "What's the difference between hardware and software? You can hit your hardware with a hammer, but you can only curse at your software."
+    title: "Quintero's Shredded Roast Duck",
+    image:
+      "https://www.recipetineats.com/wp-content/uploads/2016/03/Slow-Cooker-Mexican-Chicken_1.jpg",
+    description:
+      "Made with chicken, this south of the border treat has a little jalapeno heat.",
+    ingredients: "blah blah, blah blah"
   }
 ];
 

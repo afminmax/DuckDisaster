@@ -1,12 +1,12 @@
 import React from "react";
 
-function Note(props) {
+export default function Recipe(props) {
   return (
     <div className="note">
       <h1>{props.title}</h1>
-      <p>{props.content}</p>
+      <img className="urlImg" src={props.image} alt="" />
+      <p>{props.description}</p>
+      <p>{props.ingredients}</p>
     </div>
   );
 }
-
-export default Note;
