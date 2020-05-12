@@ -1,20 +1,20 @@
 import React from "react";
 import Header from "./Header";
 import Footer from "./Footer";
-import Note from "./Note";
-import notes from "../notes";
+import Recipe from "./Recipe";
+import recipes from "../recipes";
 
-console.log(notes);
+console.log(recipes);
 
 function App() {
   return (
     <div>
       <Header />
-      {notes.map(noteItem => (
-        <Note
-          key={noteItem.key}
-          title={noteItem.title}
-          content={noteItem.content}
+      {recipes.map(recipeDetails => (
+        <Recipe
+          key={recipeDetails.key}
+          title={recipeDetails.title}
+          content={recipeDetails.content}
         />
       ))}
       <Footer />
