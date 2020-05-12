@@ -1,2 +1,0 @@
-# DuckDisaster
-Created with CodeSandbox
