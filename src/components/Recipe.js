@@ -15,7 +15,7 @@ export default function Recipe(props) {
 
   return (
     <div
-      style={{ backgroundColor: isMousedOver ? "#d35400" : "#f1c40f" }}
+      style={{ backgroundColor: isMousedOver ? "#e67e22" : "#f5ba13" }}
       onMouseOver={handleMouseOver}
       onMouseOut={handleMouseOut}
       className="note"
