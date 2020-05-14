@@ -4,6 +4,9 @@ import Footer from "./Footer";
 import Recipe from "./Recipe";
 import recipes from "../recipes";
 
+import "bootstrap/dist/css/bootstrap.min.css"; // required stylesheet
+import "../styles.css"; // my stylesheet
+
 console.log(recipes);
 
 function App() {
