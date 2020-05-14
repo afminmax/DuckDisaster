@@ -24,6 +24,14 @@ const notes = [
     description:
       "Made with chicken, this south of the border treat has a little jalapeno heat.",
     ingredients: "blah blah, blah blah"
+  },
+  {
+    key: 4,
+    title: "Next step",
+    image:
+      "https://www.recipetineats.com/wp-content/uploads/2016/03/Slow-Cooker-Mexican-Chicken_1.jpg",
+    description: "Add a bootstrap carousel",
+    ingredients: "blah blah, blah blah"
   }
 ];
 
